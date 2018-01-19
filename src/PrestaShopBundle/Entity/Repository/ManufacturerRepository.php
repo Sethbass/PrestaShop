@@ -61,8 +61,7 @@ class ManufacturerRepository
         Connection $connection,
         ContextAdapter $contextAdapter,
         $tablePrefix
-    )
-    {
+    ) {
         $this->connection = $connection;
         $this->tablePrefix = $tablePrefix;
 
